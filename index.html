@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Halto | Landing Page</title>
+    <link rel="icon" href="img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <header class="header container">
+        <img src="img/assets/logo.png" alt="Logo Halto">
+        <nav class="header-nav">
+            <div>
+                <a class="nav-regle" href="#REGLES">LES REGLES</a>
+            </div>
+            <div>
+                <a class="nav-classement"href="#CLASSEMENT">CLASSEMENT</a>
+            </div>
+            <div>
+                <a class="nav-equipe" href="#EQUIPE">L'EQUIPE</a>
+            </div>    
+        </nav>
+    </header>
+
+    <section class="video container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T50OzQ-LSA0?autoplay=1&mute=1&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="button">
+            <button class="game">
+                <div class="game-btn">
+                    <a href="https://haltogame.com" target="__blank">JOUER MAINTENANT</a>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section id="REGLES" class="container contain-rules">
+        <h2>Les règles</h2>
+        <div class="rules-top">
+            <div class="rules-top-left">
+                <div class="content-rule">
+
+                    <div class="text-rule">
+                        <h3>1) COMMENT JOUER ?</h3>
+                        <p>
+                            Incarne un avatar et tente d’éliminer ton adversaire à l’aide de projectiles sans te faire toucher ! À toi de jouer Avec ton environnement et tes choix de bonus
+                            afin de prendre le dessus...
+                        </p>
+                        <p>
+                            La partie se décompose en trois manches de 30 secondes.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="rules-top-right">
+                <div class="content-rule">
+                    <div class="text-rule">
+                        <h3>2) LES MODES DE JEU</h3>
+                        <p>
+                            En début de partie, le mode de jeu est tiré au sort : il permet de personnaliser la partie et t’incite donc à adapter ton style de jeu en fonction. 6 modes de jeu
+                            peuvent s'appliquer à toi et ton adversaire !
+                        </p>
+                    </div>
+
+                    <div class="img-rule type-card">
+                        <img src="img/assets/Group 158.png" alt="Choix du mode de jeu">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rules-bottom">
+            <div class="rules-bottom-left">
+                <div class="content-rule">
+                    <div class="text-rule">
+                        <h3>3) LES CARTES ATTAQUE ET DEFENSE</h3>
+                        <p>Après chaque manche de 30 secondes, pour pimenter le jeu, tu dois choisir un bonus d’attaque, de défense ou random.</p>
+                    </div>
+                    <div class="img-rule card-def">
+                        <img src="img/assets/Group 159.png" alt="Choix des bonus">
+                    </div>
+                </div>
+            </div>
+            <div class="rules-bottom-right">
+                <div class="content-rule-bottom">
+                    <div class="text-rule">
+                        <h3>4) UNE NAVIGUATION SIMPLE</h3>
+                        <p>Joue avec les touches de ton clavier !</p>
+                    </div>
+                    <div class="img-rule img-touch">
+                        <img src="img/assets/Group 160.png" alt="Commande de jeu">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="slider-bg" class="slider">
+            <div class="rond-slider">     
+              <div class="chevron-left" id="chevronLeft">
+                  <i class="fas fa-chevron-left fa-5x"></i>
+              </div>
+              <div class="rond">
+                  <div class="slider-perso">
+      
+                      <div class="perso1">
+                          <img src="img/perso/Chatrond.png" alt="Personnage Chat">   
+                      </div>
+                      <div class="perso2">
+                          <img src="img/perso/Hibourond.png" alt="Personnage Hibou">
+                      </div>
+                      <div class="perso3">
+                          <img src="img/perso/lapinrond.png" alt="Personnage Lapin">
+                      </div>
+                      <div class="perso4">
+                          <img src="img/perso/Chouetterond.png" alt="Personnage Chouette">
+                      </div>
+                      <div class="perso5">
+                          <img src="img/perso/grenouillerond.png" alt="Personnage Grenouille">
+                      </div>
+                  </div>
+              </div>
+              <div id="chevronRight" class="chevron-right" >
+                  <i class="fas fa-chevron-right fa-5x"></i>
+              </div>
+          </div>
+    </section>
+
+    <section id="CLASSEMENT" class="container classement">
+        <div class="img-classement">
+            <img src="img/assets/classement.png" alt="Classement">
+        </div>
+        <div class="text-classement">
+            <h2>SOIS LE MEILLEUR</h2>
+            <h3>Défies tes amis en permanence</h3>
+            <p>
+                Défies tes amis à chaque pause et tente de te classer au top des rankings. 
+                <br>Tu pourras créer tes propres groupes de
+                participants et les défier en permance pour tenter d’être LE meilleur sur HALTO.
+            </p>
+            <div class="button">
+                <button class="game">
+                    <div class="game-btn">
+                        <a href="https://haltogame.com" target="__blank">JOUER</a>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="EQUIPE" class="container">
+        <h2>L'EQUIPE</h2>
+        <div id="team">
+
+        </div>
+    </section>
+
+    <section class="container join-aventure">
+        <div class="question">
+            <h3>PRÊT A REJOINDRE L'AVENTURE ? </h3>
+            <div class="button">
+                <button class="btn-go">
+                    <div class="btn-go-link">
+                        <a href="https://haltogame.com" target="__blank">LET'S GOOOO</a>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="logo">
+            <img src="img/assets/logo.png" alt="Logo Halto">
+        </div>
+        <div class="reseaux">
+            <img src="img/assets/instagram.png" alt="Logo Instagram">
+            <img src="img/assets/facebook.png" alt="Logo Facebook">
+            <img src="img/assets/twitter.png" alt="Logo Twitter">
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,493 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+body{
+    background-image: url('../img/assets/HomeV2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.header-nav a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s ease-in-out;
+    font-family:"Fauna Pro";
+    font-size: 1em;
+    width: 30%;
+}
+
+.header-nav a::after{
+    display: block;
+    content: "";
+    height: 2px;
+    border-radius: 3px;
+    width: 0;
+    background-color: purple;
+    transition: 0.4s ease-in-out;
+}
+
+.header-nav a:hover::after{
+    width: 100%;
+}
+iframe{
+    width: 70%;
+    height: 600px;
+    border-radius: 8px;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.button{
+    width: 30%;
+    padding-top: 3rem;
+    margin: 0;
+}
+.button .game{
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: #4D0F9B;
+    height: 60px;
+    font-family: "Fauna Pro";
+    transform: skew(20deg);
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    padding: 20px;
+}
+.game .game-btn{
+    transform: skew(-20deg);
+}
+.game-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.contain-rules{
+    padding-top: 40px;
+}
+
+.contain-rules h2{
+    color: #fff;
+    font-family: 'Fauna Pro';
+}
+
+.rules-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rules-top-left{
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(117, 44, 209, 0.29) 1.12%, rgba(169, 101, 255, 0.29) 100%);
+    margin-top: 5rem;
+}
+
+.rules-top-right{
+    width: 55%;
+    height: auto;
+    background-color: #272727;
+    border-radius: 6px;
+    margin-top: 5rem;
+}
+
+.rules-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rules-bottom-left{
+    width: 55%;
+    height: auto;
+    background-color: #272727;
+    border-radius: 6px;
+    margin-top: 5rem;
+
+}
+
+.rules-bottom-right{
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(117, 44, 209, 0.29) 1.12%, rgba(169, 101, 255, 0.29) 100%);
+    margin-top: 5rem;
+}
+
+.img-touch img{
+    width: 90%;
+}
+.text-rule{
+    color: #fff;
+}
+.text-rule h3{
+    font-family: 'Fauna Pro';
+}
+.text-rule p{
+    font-family: 'Poppins';
+}
+.content-rule{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+}
+.type-card img{
+    width: 130%;
+}
+.card-def img{
+    width: 130%;
+}
+.content-rule-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+.text-rule p{
+    margin-top: 2rem;
+}
+.classement{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    color: #fff;
+}
+.img-classement{
+    width: 50%;
+    text-align: center;
+}
+.img-classement img{
+    width: 70%;
+}
+.classement h2,h3{
+    font-family: 'Fauna Pro';
+    margin-top: 2rem;
+}
+.classement p{
+    font-family: 'Poppins';
+    margin-top: 1rem;
+}
+.text-classement .button{
+    padding-left: 3rem;
+}
+
+
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.image{
+    width: 90%;
+    height: 70%;
+    transform: skew(-4deg);
+    border: #752CD1 solid 2px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-personne{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+#EQUIPE h2{
+    font-family: 'Fauna Pro';
+    color: #fff;
+}
+
+.join-aventure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button .btn-go{
+    width: 200px;
+    border: none;
+    box-shadow:none;
+    background-color: #4D0F9B;
+    height:50px;
+    font-family:"Fauna Pro";
+    transform: skew(20deg);
+    color:#fff;
+    box-shadow: none;
+    border: none;
+    color:#fff;
+    padding: 20px;
+    border-radius: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.btn-go .btn-go-link{
+    transform: skew(-20deg);
+}
+
+.btn-go-link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.question{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question h3{
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    height: 70px;
+    border-top: grey solid 2px;
+}
+
+.reseaux{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin: 0;
+
+}
+.reseaux img{
+    width: 30px;
+    height: 30px;
+}
+
+.logo img{
+    width: 70%;
+    height: 30%;
+}
+
+@media screen and (max-width: 1441px){
+    iframe{
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-around;
+    }
+    .header img{
+        width: 20%;
+    }
+    .header-nav{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .header-nav a{
+        width: 30%;
+        font-size: 0.8em;
+    }
+    .video{
+        width: 100%;
+    }
+    iframe{
+        height: 300px;
+    }
+    .btn{
+        width: 20%;
+    }
+    .rules-top, .rules-bottom{
+        flex-direction: column;
+    }
+    .rules-top-left, .rules-top-right, .rules-bottom-left, .rules-bottom-right{
+        width: 100%;
+    }
+    .classement{
+        flex-direction: column;
+        align-items: center;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    .img-classement img{
+        width:100%;
+    }
+    .text-classement{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .header-nav a{
+        font-size: 0.7em;
+    }
+    .header img{
+        width: 40%;
+    }
+    .button{
+        width: 40%;
+    }
+    .content-rule{
+        flex-direction: column;
+    }
+    iframe{
+        height: 150px;
+    }
+    .type-card img{
+        width: 100%;
+    }
+    .card-def{
+        text-align: center;
+    }
+    .card-def img{
+        width: 70%;
+    }
+    .img-classement{
+        width: 100%;  
+    }
+    .team-member{
+        width: 80%;
+        text-align: center;
+    }
+    #team{
+        flex-direction: column;
+        align-items: center;
+    }
+    .question h3{
+        font-size: 0.8em;
+    }
+    .button{
+        width: 60%;
+    }
+}
+
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.slider .rond-slider {
+    border-radius: 8px;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 2rem;
+}
+
+.slider .rond-slider.chat {
+    transition : all 0.3s;
+    background-image: url(../img/perso/Chat.png);
+    animation: float infinite ease-in-out;
+}
+  
+.slider .rond-slider.hibou {
+    transition : all 0.3s;
+    background-image: url(../img/perso/Hiboux.png);
+}
+  
+.slider .rond-slider.lapin {
+    transition : all 0.3s;
+    background-image: url(../img/perso/Lapin.png);
+}
+  
+.slider .rond-slider.chouette {
+    transition : all 0.3s;
+    background-image: url(../img/perso/Oiseau.png);
+}
+  
+.slider .rond-slider.grenouille {
+    transition : all 0.3s;
+    background-image: url(../img/perso/Grenouille.png);
+}
+  
+.slider .rond-slider .rond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 285px;
+    width: 290px;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+.slider .rond-slider .rond .slider-perso {
+    display: flex;
+    transition: all 0.4s ease-in-out;
+}
+  
+.slider .rond-slider .rond img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+  
+i {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .fa-chevron-left {
+      width: 70%;
+    }
+}
